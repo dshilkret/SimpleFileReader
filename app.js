@@ -10,7 +10,7 @@ function serverCallback(request,response){
 
 	response.writeHead(200,{"Content-Type":"text/html"});
 	// Fetching data from file
-	fs.readFile("index.html",readFileCallback);
+	fs.readFile("test.txt",readFileCallback);
 	
 	// Defining reading of file
 	function readFileCallback(err,contents){
