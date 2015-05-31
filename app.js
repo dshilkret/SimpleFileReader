@@ -20,4 +20,5 @@ function serverCallback(request,response){
 	}
 }
 
+// logging message
 console.log("Running server at port 3000....");
