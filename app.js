@@ -9,6 +9,7 @@ http.createServer(serverCallback).listen(3000);
 // helper function called on client request
 function serverCallback(request,response){
 
+	// writing response header
 	response.writeHead(200,{"Content-Type":"text/html"});
 	// Fetching data from file
 	fs.readFile("test.txt",readFileCallback);
